@@ -31,12 +31,14 @@ const Navigation = () => {
   ];
 
   const links = dataNavigation.map((link) => {
+    const disabled = !link.href ? styles.disabledLink : "";
     return (
       <a
         href={link.name === "Kontakt" ? `mailto:${link.href}` : `${link.href}`}
         key={link.name}
         target="_blank"
         rel="noopener noreferrer"
+        className={disabled}
       >
         {link.name}
       </a>

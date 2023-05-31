@@ -1,6 +1,7 @@
 :root {
   --links-color: rgba(54, 54, 54, 0.8);
   --links-color-hover: rgba(54, 54, 54, 0.9);
+  --links-color-disabled: rgb(222, 221, 221);
   --light-gray-border: rgba(235, 235, 235, 1);
 }
 
