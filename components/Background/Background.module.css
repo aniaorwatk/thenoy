@@ -1,0 +1,15 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  z-index: -1;
+}
+
+.box {
+  width: 50%;
+  display: flex;
+}
+
+.boxReverse {
+  flex-direction: row-reverse;
+}
