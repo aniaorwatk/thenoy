@@ -17,25 +17,19 @@ const Background = () => {
     return `${percentage}%`;
   };
 
+  const boxWithStripes = stripes.map((stripe) => (
+    <GradienStripe
+      key={stripe.index}
+      color={stripe.color}
+      margin={calculateMargin(stripe.index)}
+    />
+  ));
+
   return (
     <div className={styles.background}>
-      <div className={styles.box}>
-        {stripes.map((stripe) => (
-          <GradienStripe
-            key={stripe.index}
-            color={stripe.color}
-            margin={calculateMargin(stripe.index)}
-          />
-        ))}
-      </div>
+      <div className={styles.box}>{boxWithStripes}</div>
       <div className={`${styles.box} ${styles.boxReverse}`}>
-        {stripes.map((stripe) => (
-          <GradienStripe
-            key={stripe.index}
-            color={stripe.color}
-            margin={calculateMargin(stripe.index)}
-          />
-        ))}
+        {boxWithStripes}
       </div>
     </div>
   );
