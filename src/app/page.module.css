@@ -1,7 +1,11 @@
 .main {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }

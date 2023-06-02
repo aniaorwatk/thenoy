@@ -12,17 +12,8 @@ const Background = () => {
     color: index % 2 === 0 ? "dark" : "light",
   }));
 
-  const calculateMargin = (index: number) => {
-    const percentage = 13 - index * 2;
-    return `${percentage}%`;
-  };
-
   const boxWithStripes = stripes.map((stripe) => (
-    <GradienStripe
-      key={stripe.index}
-      color={stripe.color}
-      margin={calculateMargin(stripe.index)}
-    />
+    <GradienStripe key={stripe.index} color={stripe.color} />
   ));
 
   return (

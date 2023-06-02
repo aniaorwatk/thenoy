@@ -1,20 +1,13 @@
 import styles from "./GradienStripe.module.css";
 
-interface GradienStripeProps {
+interface IGradienStripeType {
   color: "dark" | "light";
-  margin: string;
 }
 
-const GradienStripe: React.FC<GradienStripeProps> = ({ color, margin }) => {
+const GradienStripe = ({ color }: IGradienStripeType) => {
   const stripeClass = color === "dark" ? styles.dark : styles.light;
-  const stripeStyle = { margin };
 
-  return (
-    <div
-      className={`${styles.stripe} ${stripeClass}`}
-      style={stripeStyle}
-    ></div>
-  );
+  return <div className={`${styles.stripe} ${stripeClass}`}></div>;
 };
 
 export default GradienStripe;
