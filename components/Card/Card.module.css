@@ -1,6 +1,7 @@
 .card {
   border-radius: 8px;
   background-color: var(--color-grapefruit);
+  overflow: hidden;
 }
 
 .isLink {
@@ -25,7 +26,7 @@
 }
 
 .orangeLight {
-  background-color: var(--color-orangeLight);
+  background-color: var(--color-light-orange);
 }
 
 .pink {
@@ -57,7 +58,7 @@
 }
 
 .blueLight {
-  background-color: var(--color-blueLight);
+  background-color: var(--color-light-blue);
 }
 
 @media only screen and (min-width: 883px) {

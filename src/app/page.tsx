@@ -1,6 +1,7 @@
 import WelcomeTitle from "../../components/WelcomeTitle/WelcomeTitle";
 import Background from "./../../components/Background/Background";
 import Navigation from "../../components/Navigation/Navigation";
+import GirlCard from "../../components/GirlCard/GirlCard";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <main className={styles.main}>
       <Background />
       <Navigation />
-       <WelcomeTitle />   
+      <WelcomeTitle />
+      <GirlCard />
     </main>
   );
 }
