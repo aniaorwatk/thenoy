@@ -1,0 +1,12 @@
+.stripe {
+  height: 100vh;
+  width: 32px;
+}
+
+.dark {
+  background: var(--color-stripe-dark);
+}
+
+.light {
+  background: var(--color-stripe-light);
+}
