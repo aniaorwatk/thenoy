@@ -1,0 +1,68 @@
+.card {
+  border-radius: 8px;
+  background-color: var(--color-grapefruit);
+}
+
+.isLink {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.isLink:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+}
+
+.tangerine {
+  background-color: var(--color-tangerine);
+}
+
+.grapefruit {
+  background-color: var(--color-grapefruit);
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+
+.orangeLight {
+  background-color: var(--color-orangeLight);
+}
+
+.pink {
+  background-color: var(--color-pink);
+}
+
+.plum {
+  background-color: var(--color-plum);
+}
+
+.purple {
+  background-color: var(--color-purple);
+}
+
+.lemon {
+  background-color: var(--color-lemon);
+}
+
+.gray {
+  background-color: var(--color-gray);
+}
+
+.avocado {
+  background-color: var(--color-avocado);
+}
+
+.grass {
+  background-color: var(--color-grass);
+}
+
+.blueLight {
+  background-color: var(--color-blueLight);
+}
+
+@media only screen and (min-width: 883px) {
+  .card {
+    border-radius: 32px;
+    border: 7px solid var(--color-white);
+  }
+}
