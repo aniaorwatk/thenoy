@@ -26,12 +26,24 @@
   --links-color-hover: rgba(54, 54, 54, 0.9);
   --links-color-disabled: rgb(222, 221, 221);
   --light-gray-border: rgba(235, 235, 235, 1);
+}
 
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
   }
+
 }
 
 * {
