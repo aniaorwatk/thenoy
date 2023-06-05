@@ -1,4 +1,5 @@
 :root {
+
   --color-tangerine: rgba(255, 144, 72, 1);
   --color-grapefruit: rgba(255, 158, 129, 1);
   --color-orange: rgba(255, 182, 88, 1);
@@ -12,6 +13,10 @@
   --color-grass: rgba(185, 222, 190, 0.8);
   --color-light-blue: rgba(198, 229, 247, 1);
   --color-white: white;
+  --links-color: rgba(54, 54, 54, 0.8);
+  --links-color-hover: rgba(54, 54, 54, 0.9);
+  --links-color-disabled: rgb(222, 221, 221);
+  --light-gray-border: rgba(235, 235, 235, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,6 +32,7 @@
 
 html,
 body {
+
 }
 
 a {
