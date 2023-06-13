@@ -1,0 +1,25 @@
+.rightSide {
+  display: none;
+  align-items: center;
+}
+
+.media {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  width: 185px;
+  height: 395px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.boxWithContact > :first-child {
+  width: 185px;
+  height: 221px;
+}
+
+@media only screen and (min-width: 883px) {
+  .rightSide {
+    display: flex;
+    align-items: center;
+  }
+}

@@ -1,15 +1,23 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: auto;
+  color: var(--text-white);
   border-radius: 8px;
+  font-weight: 400;
   overflow: hidden;
 }
 
 .isLink {
-  transition: background-color 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .isLink:hover {
   transform: scale(1.02);
-  filter: brightness(1.1);
+  filter: brightness(1.05);
 }
 
 .tangerine {

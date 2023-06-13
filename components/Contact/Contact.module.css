@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 360px;
+  height: 75px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.centerOfCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
