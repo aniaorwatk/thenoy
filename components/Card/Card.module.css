@@ -1,5 +1,6 @@
 .card {
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .isLink {
@@ -24,7 +25,7 @@
 }
 
 .orangeLight {
-  background-color: var(--color-orangeLight);
+  background-color: var(--color-light-orange);
 }
 
 .pink {
