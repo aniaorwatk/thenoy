@@ -15,7 +15,8 @@ interface ICardType {
     | "gray"
     | "avocado"
     | "grass"
-    | "blueLight";
+    | "blueLight"
+    | string;
 }
 
 const Card = ({ children, isLink, color }: ICardType) => {
