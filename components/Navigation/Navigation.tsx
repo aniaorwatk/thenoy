@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Logo from "../Icons/Logo";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -45,12 +43,7 @@ const Navigation = () => {
     );
   });
 
-  return (
-    <div className={styles.contener}>
-      <Logo />
-      <nav className={styles.navigation}>{links}</nav>
-    </div>
-  );
+  return <nav className={styles.navigation}>{links}</nav>;
 };
 
 export default Navigation;
