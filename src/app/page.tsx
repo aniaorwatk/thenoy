@@ -1,9 +1,8 @@
 import WelcomeTitle from "../../components/WelcomeTitle/WelcomeTitle";
 import Background from "./../../components/Background/Background";
-import RightSide from "../../components/RightSide/RightSide";
-import GirlCard from "../../components/GirlCard/GirlCard";
 import Header from "../../components/Header/Header";
 import styles from "./page.module.css";
+import Main from "../../components/Main/Main";
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
       <Background />
       <Header />
       <WelcomeTitle />
-      <GirlCard />
-      <RightSide />  
+      <Main />
     </main>
   );
 }
