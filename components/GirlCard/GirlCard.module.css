@@ -1,0 +1,34 @@
+.firstPart,
+.secondPart {
+  background-image: url("./../../public/images/girlWithSkateboard.svg");
+  background-size: 413px 599px;
+  width: 171px;
+}
+
+.firstPart {
+  height: 221px;
+  background-position: 57% 28%;
+}
+
+.secondPart {
+  height: 266px;
+  background-position: 57% 100%;
+}
+
+@media only screen and (min-width: 883px) {
+  .firstPart,
+  .secondPart {
+    background-size: auto;
+    width: 247px;
+  }
+
+  .firstPart {
+    height: 297px;
+    background-position: 50% 29%;
+  }
+
+  .secondPart {
+    height: 282px;
+    background-position: 50% 93%;
+  }
+}

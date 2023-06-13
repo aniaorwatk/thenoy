@@ -2,3 +2,13 @@
   font-weight: 300;
   color: rgba(49, 183, 171, 1);
 }
+
+.container {
+  display: none;
+}
+
+@media only screen and (min-width: 883px) {
+  .container {
+    display: block;
+  }
+}

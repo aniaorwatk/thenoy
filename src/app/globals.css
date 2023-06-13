@@ -22,6 +22,7 @@
   --color-grass: rgba(185, 222, 190, 0.8);
   --color-light-blue: rgba(198, 229, 247, 1);
   --color-white: white;
+  --color-text-light: rgba(249, 249, 249, 1);
   --links-color: rgba(54, 54, 54, 0.8);
   --links-color-hover: rgba(54, 54, 54, 0.9);
   --links-color-disabled: rgb(222, 221, 221);
@@ -33,6 +34,12 @@ h1 {
   font-size: 64px;
   font-weight: 700;
   line-height: 77px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38.5px;
+  font-weight: 700;
 }
 
 h3 {

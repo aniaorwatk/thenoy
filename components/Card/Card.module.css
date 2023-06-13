@@ -7,8 +7,8 @@
   padding: auto;
   color: var(--text-white);
   border-radius: 8px;
-  background-color: var(--color-grapefruit);
   font-weight: 400;
+  overflow: hidden;
 }
 
 .isLink {

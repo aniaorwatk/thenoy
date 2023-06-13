@@ -18,12 +18,7 @@ const Navigation = () => {
     );
   });
 
-  return (
-    <div className={styles.contener}>
-      <Logo />
-      <nav className={styles.navigation}>{links}</nav>
-    </div>
-  );
+  return <nav className={styles.navigation}>{links}</nav>;
 };
 
 export default Navigation;
