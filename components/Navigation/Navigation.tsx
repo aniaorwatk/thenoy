@@ -1,4 +1,3 @@
-import Logo from "../Icons/Logo";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
 import data from "./../../data/data";
 import styles from "./Navigation.module.css";
