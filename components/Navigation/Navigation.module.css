@@ -1,15 +1,3 @@
-.contener {
-  display: none;
-  align-items: center;
-  justify-content: space-between;
-  margin: 37px 105px 0px 105px;
-  border-bottom: 3px solid var(--light-gray-border);
-}
-
-.contener > img {
-  margin-bottom: 24px;
-}
-
 .navigation {
   display: flex;
   align-items: center;
@@ -33,12 +21,6 @@
   pointer-events: none;
   color: var(--links-color-disabled);
   text-decoration: none;
-}
-
-@media only screen and (min-width: 883px) {
-  .contener {
-    display: flex;
-  }
 }
 
 @media only screen and (min-width: 1119px) {
