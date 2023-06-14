@@ -1,0 +1,16 @@
+.container {
+  position: absolute;
+  left: -55%;
+  top: 10px;
+  color: var(--color-grass);
+  transform: rotate(-10deg);
+}
+
+.qutes {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.imgContainer {
+  transform: rotate(10deg) translate(60%, 10px);
+}
