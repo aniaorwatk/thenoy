@@ -4,7 +4,6 @@ import data from "./../../data/data";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
 import styles from "./Contact.module.css";
 import WriteToMe from "../WriteToMe/WriteToMe";
-import YouWillFindMe from "../YouWillFindMe/YouWillFindMe";
 
 const Contact = () => {
   const contact = data

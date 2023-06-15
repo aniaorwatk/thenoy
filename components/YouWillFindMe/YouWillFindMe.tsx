@@ -1,8 +1,13 @@
 import Image from "next/image";
-import { shadow } from "@/app/layout";
+import { Shadows_Into_Light_Two } from "next/font/google";
 import arrow from "./../../assets/greenArrow.svg";
 import labels from "../../public/labels/labels";
 import styles from "./YouWillFindMe.module.css";
+
+const shadow = Shadows_Into_Light_Two({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 const YouWillFindMe = () => {
   return (

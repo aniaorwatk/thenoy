@@ -2,8 +2,13 @@ import Image from "next/image";
 import star from "./../../assets/shootingStar.svg";
 import labels from "../../public/labels/labels";
 import styles from "./WelcomeTitle.module.css";
-import { roboto } from "@/app/layout";
+import { Roboto } from "next/font/google";
 import Flower from "../Flower/Flower";
+
+export const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "300",
+});
 
 const WelcomeTitle = () => {
   return (

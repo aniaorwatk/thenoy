@@ -1,19 +1,9 @@
 import "./globals.css";
-import { Sen, Shadows_Into_Light_Two, Roboto } from "next/font/google";
+import { Sen } from "next/font/google";
 
 const sen = Sen({
   subsets: ["latin"],
   weight: "400",
-});
-
-export const shadow = Shadows_Into_Light_Two({
-  subsets: ["latin"],
-  weight: "400",
-});
-
-export const roboto = Roboto({
-  subsets: ["latin"],
-  weight: "300",
 });
 
 export const metadata = {
