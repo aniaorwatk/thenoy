@@ -14,7 +14,7 @@
 
 .box {
   display: flex;
-  /* overflow: visible; */
+  overflow: visible;
   margin: 0 72px 0 auto;
 }
 
