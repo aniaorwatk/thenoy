@@ -1,0 +1,11 @@
+.avocado {
+  display: flex;
+  padding: 10px 12px;
+  gap: 8px;
+}
+
+.container {
+  height: fit-content;
+  width: fit-content;
+  margin: auto 0 auto auto;
+}

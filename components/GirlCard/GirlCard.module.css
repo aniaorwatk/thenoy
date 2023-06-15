@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-self: center;
   height: min-content;
 }
 
@@ -21,7 +22,7 @@
   background-position: 57% 100%;
 }
 
-@media only screen and (min-width: 883px) {
+@media only screen and (min-width: 1000px) {
   .firstPart,
   .secondPart {
     background-size: auto;

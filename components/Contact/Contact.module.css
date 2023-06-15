@@ -1,8 +1,9 @@
 .container {
+  position: relative;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1.8fr 6fr;
   width: 360px;
-  height: 75px;
+  height: 80px;
   font-size: 20px;
   line-height: 24px;
 }
