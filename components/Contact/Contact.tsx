@@ -3,6 +3,7 @@ import Card from "../Card/Card";
 import data from "./../../data/data";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
 import styles from "./Contact.module.css";
+import WriteToMe from "../WriteToMe/WriteToMe";
 
 const Contact = () => {
   const contact = data
@@ -26,6 +27,7 @@ const Contact = () => {
 
   return (
     <div className={styles.container}>
+      <WriteToMe />
       <Card color="gray">
         <Image
           src="/images/handsMail.png"

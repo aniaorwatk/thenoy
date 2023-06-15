@@ -1,0 +1,16 @@
+.container {
+  position: absolute;
+  right: 15%;
+  top: -80px;
+  color: var(--color-purple);
+  transform: rotate(40deg);
+}
+
+.qutes {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.imgContainer {
+  transform: rotate(-30deg) translate(20px, 10px);
+}
