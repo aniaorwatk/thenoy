@@ -1,0 +1,42 @@
+.leftSide {
+  display: none;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.media {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 171px;
+  height: 405px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.logoBox {
+  width: 300px;
+}
+
+.logo {
+  height: 175px;
+  font-size: 32px;
+  display: none;
+}
+
+@media only screen and (min-width: 883px) {
+  .leftSide {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .leftSide {
+    padding-left: 60px;
+  }
+  .logo {
+    display: block;
+  }
+}

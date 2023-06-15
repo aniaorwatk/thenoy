@@ -1,6 +1,8 @@
 .rightSide {
   display: none;
+  flex-wrap: wrap;
   align-items: center;
+  align-content: center;
 }
 
 .media {
@@ -15,11 +17,18 @@
 .boxWithContact > :first-child {
   width: 185px;
   height: 221px;
+  display: none;
 }
 
 @media only screen and (min-width: 883px) {
   .rightSide {
     display: flex;
     align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .boxWithContact > :first-child {
+    display: flex;
   }
 }

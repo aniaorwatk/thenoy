@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   color: var(--color-text-light);
+  transform: translateY(-20px);
 }
 
 .logoBox {
