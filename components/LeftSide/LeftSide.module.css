@@ -4,18 +4,21 @@
   align-self: center;
   justify-content: flex-end;
   flex-wrap: wrap;
+  padding-left: 50px;
 }
 
 .media {
+  position: relative;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   width: 171px;
-  height: 405px;
+  height: 411px;
   font-size: 24px;
   line-height: 29px;
 }
 
 .logoBox {
+  margin-top: 0px;
   width: 300px;
 }
 
@@ -37,6 +40,7 @@
     padding-left: 60px;
   }
   .logo {
+    margin-top: 70px;
     display: block;
   }
 }
