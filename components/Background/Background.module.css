@@ -15,7 +15,7 @@
 .box {
   display: flex;
   overflow: visible;
-  margin: 0 72px 0 auto;
+  margin: auto 72px 0 auto;
 }
 
 .box > div {
@@ -29,7 +29,7 @@
 
 .boxReverse {
   flex-direction: row-reverse;
-  margin: 0 auto 0 72px;
+  margin: auto auto 0 72px;
 }
 
 @media only screen and (min-width: 883px) {
