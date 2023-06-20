@@ -6,11 +6,12 @@ import styles from "./Avocado.module.css";
 const Avocado = () => {
   const avocado = [...Array(5)].map((_, index) => (
     <Image
+      className={styles.imgAvocado}
       key={index}
       src={imgAvocado}
       alt="ikona avocado"
-      width={32}
-      height={32}
+      width={23}
+      height={23}
     />
   ));
 

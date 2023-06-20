@@ -1,5 +1,6 @@
 .container {
   position: absolute;
+  display: none;
   right: 15%;
   top: -80px;
   color: var(--color-purple);
@@ -10,6 +11,12 @@
 
 .imgContainer {
   transform: rotate(-30deg) translate(20px, 10px);
+}
+
+@media only screen and (min-width: 883px) {
+  .container {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
