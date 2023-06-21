@@ -10,3 +10,25 @@
 .light {
   background: var(--color-stripe-light);
 }
+
+.purple {
+  background: var(--strip-purple);
+}
+
+.darkPurple {
+  background: var(--strip-dark-purple);
+}
+
+.blue {
+  background: var(--strip-blue);
+}
+
+.small {
+  height: 820px;
+  width: 8px;
+}
+
+.horizontalStrip {
+  height: 32px;
+  width: 100vw;
+}

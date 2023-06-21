@@ -28,6 +28,9 @@
   --links-color-disabled: rgb(222, 221, 221);
   --light-gray-border: rgba(235, 235, 235, 1);
   --text-white: rgba(249, 249, 249, 1);
+  --strip-purple: #d0ddff;
+  --strip-blue: #c6e5f7;
+  --strip-dark-purple: #d5b6f0;
 }
 
 h1 {

@@ -1,0 +1,36 @@
+.smallStripe,
+.purpleStripe,
+.horizontalStripe {
+  display: none;
+  position: fixed;
+}
+
+.smallStripe {
+  top: 0;
+  left: 0;
+}
+
+.purpleStripe {
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.horizontalStripe {
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (min-width: 883px) {
+  .smallStripe,
+  .purpleStripe,
+  .horizontalStripe {
+    display: block;
+  }
+}
+
+@media only screen and (max-height: 950px) {
+  .horizontalStripe {
+    display: none;
+  }
+}
