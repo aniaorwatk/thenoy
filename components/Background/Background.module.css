@@ -9,13 +9,13 @@
   align-items: center;
   justify-content: center;
   z-index: -1;
-  margin: 0 auto;
+  margin: 0 auto auto auto;
 }
 
 .box {
   display: flex;
   overflow: visible;
-  margin: 0 72px 0 auto;
+  margin: auto 72px 0 auto;
 }
 
 .box > div {
@@ -29,7 +29,7 @@
 
 .boxReverse {
   flex-direction: row-reverse;
-  margin: 0 auto 0 72px;
+  margin: auto auto 0 72px;
 }
 
 @media only screen and (min-width: 883px) {

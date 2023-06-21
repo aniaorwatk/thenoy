@@ -59,3 +59,15 @@
     display: block;
   }
 }
+
+@media only screen and (min-width: 1040px) {
+  .secondFlowers {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1377px) {
+  .secondFlowers {
+    display: block;
+  }
+}
