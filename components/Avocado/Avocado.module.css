@@ -1,11 +1,30 @@
 .avocado {
   display: flex;
-  padding: 10px 12px;
-  gap: 8px;
+  padding: 10px 14px;
+  gap: 7px;
 }
 
 .container {
   height: fit-content;
   width: fit-content;
   margin: auto 0 auto auto;
+}
+
+@media only screen and (min-width: 883px) {
+  .avocado {
+    display: flex;
+    padding: 10px 12px;
+    gap: 8px;
+  }
+
+  .container {
+    height: fit-content;
+    width: fit-content;
+    margin: auto 0 auto auto;
+  }
+
+  .imgAvocado {
+    width: 32px;
+    height: 32px;
+  }
 }
