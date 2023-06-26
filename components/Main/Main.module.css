@@ -6,6 +6,13 @@
   display: none;
 }
 
+.desktopPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
 .mobileView {
   display: flex;
 }

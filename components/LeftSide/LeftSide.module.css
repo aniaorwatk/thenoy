@@ -10,7 +10,7 @@
 .media {
   position: relative;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 137px 137px 137px;
   width: 171px;
   height: 411px;
   font-size: 24px;

@@ -10,11 +10,6 @@ const StripesAroundPage = () => {
         className={styles.smallStripe}
       />
       <GradienStripe color="purple" className={styles.purpleStripe} />
-      <GradienStripe
-        color="blue"
-        isHorizontal
-        className={styles.horizontalStripe}
-      />
     </>
   );
 };

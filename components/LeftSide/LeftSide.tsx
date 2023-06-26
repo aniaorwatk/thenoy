@@ -1,3 +1,4 @@
+import Image from "next/image";
 import data from "../../data/data";
 import Avocado from "../Avocado/Avocado";
 import Card from "../Card/Card";
@@ -13,7 +14,7 @@ const LeftSide = () => {
       item.name === "YouTube" ||
       item.name === "Pinterest"
   );
-  const linksToMedia = filteredMedia.map((item, index) => {
+  const linksToMedia = filteredMedia.map((item) => {
     let cardColor = "";
     if (item.name === "Pinterest") {
       cardColor = "grapefruit";
@@ -23,24 +24,11 @@ const LeftSide = () => {
       cardColor = "orange";
     }
 
-    // const addQute = index === 0 ? styles.addQute : "";
     return (
-      <LinkToAnotherPage
-        linkHref={item.href}
-        key={item.name}
-        // className={addQute}
-      >
+      <LinkToAnotherPage linkHref={item.href} key={item.name}>
         <Card color={cardColor} isLink>
-          <div
-            style={{
-              width: "50px",
-              height: "50px",
-              backgroundImage: `url(${item.src})`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-            }}
-          ></div>
-          {item.name}
+          <Image src={item.src} alt={""} width={45} height={45} />
+          <span>{item.name}</span>
         </Card>
       </LinkToAnotherPage>
     );
@@ -59,7 +47,6 @@ const LeftSide = () => {
       <div className={styles.media}>
         {linksToMedia}
         <YouWillFindMe />
-        {/* {filteredMedia.length > 0 && <YouWillFindMe />} */}
       </div>
     </section>
   );

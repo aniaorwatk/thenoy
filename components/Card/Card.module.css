@@ -17,7 +17,7 @@
 }
 
 .isLink:hover {
-  transform: scale(1.01);
+  transform: scale(1.009);
   filter: brightness(1.05);
 }
 
@@ -76,6 +76,6 @@
   }
 
   .isLink:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 }
