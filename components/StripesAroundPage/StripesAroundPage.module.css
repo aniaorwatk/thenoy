@@ -1,8 +1,14 @@
 .smallStripe,
-.purpleStripe,
-.horizontalStripe {
+.purpleStripe {
   display: none;
   position: fixed;
+}
+
+.horizontalStripe {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .smallStripe {
