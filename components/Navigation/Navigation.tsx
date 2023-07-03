@@ -1,8 +1,13 @@
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
-import data from "./../../data/data";
 import styles from "./Navigation.module.css";
 
-const Navigation = () => {
+export type MediaItem = {
+  name: string;
+  href: string;
+  src: string;
+};
+
+const Navigation = ({ data }: { data: MediaItem[] }) => {
   const links = data.map((link) => {
     const disabled = !link.href ? styles.disabledLink : "";
     return (

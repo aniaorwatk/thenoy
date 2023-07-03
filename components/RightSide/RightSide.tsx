@@ -1,12 +1,16 @@
 import Image from "next/image";
 import imageLemon from "./../../assets/orange.svg";
-import data from "../../data/data";
 import Card from "../Card/Card";
 import Contact from "../Contact/Contact";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
+import { MediaItem } from "../Navigation/Navigation";
 import styles from "./RightSide.module.css";
 
-const RightSide = () => {
+interface IRightSideType {
+  data: MediaItem[];
+}
+
+const RightSide = ({ data }: IRightSideType) => {
   const linksToMedia = data
     .filter((item) => item.name === "Instagram" || item.name === "TikTok")
     .map((item) => {

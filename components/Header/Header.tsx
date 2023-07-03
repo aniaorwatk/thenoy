@@ -1,9 +1,13 @@
 import Logo from "../Icons/Logo/Logo";
 import LogoWithName from "../LogoWithName/LogoWithName";
-import Navigation from "../Navigation/Navigation";
+import Navigation, { MediaItem } from "../Navigation/Navigation";
 import styles from "./Header.module.css";
 
-const Header = () => {
+interface IHeaderType {
+  data: MediaItem[];
+}
+
+const Header = ({ data }: IHeaderType) => {
   return (
     <>
       <header className={styles.headerMobile}>
@@ -11,7 +15,7 @@ const Header = () => {
       </header>
       <header className={styles.headerDesktop}>
         <Logo />
-        <Navigation />
+        <Navigation data={data} />
       </header>
     </>
   );
