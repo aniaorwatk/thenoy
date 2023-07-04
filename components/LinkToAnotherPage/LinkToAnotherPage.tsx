@@ -11,12 +11,10 @@ const LinkToAnotherPage = ({
   linkHref,
   className,
   children,
-  key,
 }: ILinkToAnotherPageType) => {
   return (
     <a
       href={linkName === "Kontakt" ? `mailto:${linkHref}` : `${linkHref}`}
-      key={key}
       target="_blank"
       rel="noopener noreferrer"
       className={className}

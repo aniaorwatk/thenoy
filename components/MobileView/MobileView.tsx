@@ -3,20 +3,18 @@ import Card from "../Card/Card";
 import Contact from "../Contact/Contact";
 import GirlCard from "../GirlCard/GirlCard";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
-import data from "./../../data/data";
+import { MediaItem } from "../Navigation/Navigation";
 import styles from "./MobileView.module.css";
 
-type MediaData = {
-  name: string;
-  href: string;
-  src: string;
-};
+interface IMobileViewType {
+  data: MediaItem[];
+}
 
-const MobileView = () => {
+const MobileView = ({ data }: IMobileViewType) => {
   const addMediaComponent = (
     mediaName: string,
     color: string,
-    data: MediaData[]
+    data: MediaItem[]
   ) => {
     const media = data.find(
       (item) => item.name.toLowerCase() === mediaName.toLowerCase()

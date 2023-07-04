@@ -1,13 +1,17 @@
 import Image from "next/image";
-import data from "../../data/data";
 import Avocado from "../Avocado/Avocado";
 import Card from "../Card/Card";
 import LinkToAnotherPage from "../LinkToAnotherPage/LinkToAnotherPage";
 import LogoWithName from "../LogoWithName/LogoWithName";
+import { MediaItem } from "../Navigation/Navigation";
 import YouWillFindMe from "../YouWillFindMe/YouWillFindMe";
 import styles from "./LeftSide.module.css";
 
-const LeftSide = () => {
+interface ILeftSideType {
+  data: MediaItem[];
+}
+
+const LeftSide = ({ data }: ILeftSideType) => {
   const filteredMedia = data.filter(
     (item) =>
       item.name === "Twitch" ||
